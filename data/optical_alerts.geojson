@@ -1,0 +1,87 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.17831,
+          25.40754
+        ]
+      },
+      "properties": {
+        "id": "OPT-201",
+        "hazard_type": "Right-of-Way Vegetation Intrusion",
+        "severity": "WARNING",
+        "metric": "NDVI 0.46 (Inside Buffer)",
+        "numeric_val": 0.46,
+        "coherence": 0.9,
+        "dist_to_centerline_m": 8.0,
+        "buffer_zone": "Inner 30m Statutory RoW",
+        "asset_id": "Transmission Span #35-36",
+        "sensor": "Sentinel-2 Multispectral MSI (Dual-Season Woody Filter)",
+        "date_detected": "2025-11-27",
+        "recommendation": "Schedule vegetative trimming during routine maintenance (8.0m from centerline).",
+        "trend_type": "Multi-Temporal Phenological Woody Canopy Growth",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          0.16,
+          0.21,
+          0.3,
+          0.38,
+          0.44,
+          0.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.1999,
+          25.42433
+        ]
+      },
+      "properties": {
+        "id": "OPT-202",
+        "hazard_type": "Right-of-Way Vegetation Intrusion",
+        "severity": "WARNING",
+        "metric": "NDVI 0.50 (Inside Buffer)",
+        "numeric_val": 0.5,
+        "coherence": 0.9,
+        "dist_to_centerline_m": 2.5,
+        "buffer_zone": "Inner 30m Statutory RoW",
+        "asset_id": "Transmission Span #29-30",
+        "sensor": "Sentinel-2 Multispectral MSI (Dual-Season Woody Filter)",
+        "date_detected": "2025-11-27",
+        "recommendation": "Schedule vegetative trimming during routine maintenance (2.5m from centerline).",
+        "trend_type": "Multi-Temporal Phenological Woody Canopy Growth",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          0.17,
+          0.23,
+          0.33,
+          0.41,
+          0.47,
+          0.5
+        ]
+      }
+    }
+  ]
+}
