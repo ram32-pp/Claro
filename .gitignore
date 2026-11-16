@@ -1,0 +1,6 @@
+# Ignore heavy satellite rasters and temp folders
+data/radar/
+*.tif
+*.zip
+.venv/
+__pycache__/

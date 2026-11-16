@@ -1,0 +1,669 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.23132,
+          25.45614
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-001",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "CRITICAL",
+        "metric": "-56.3 mm/yr LOS (-1.85 mm / 12d)",
+        "numeric_val": -56.3,
+        "delta_12d_mm": -1.85,
+        "aps_delay_removed_mm": -2.34,
+        "vertical_rate_mm_yr": -72.7,
+        "coherence": 0.87,
+        "dist_to_centerline_m": 10.1,
+        "buffer_zone": "Inner Foundation Core (<=30m)",
+        "asset_id": "Pylon Tower #15 (Span 15-16)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Urgent pile-cap tilt & soil grouting audit (10.1m from centerline).",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          -8.4,
+          -19.7,
+          -29.3,
+          -39.4,
+          -49.5,
+          -56.3
+        ],
+        "legacy_id": "ALT-001",
+        "corridor_km": 4.22,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.15856,
+          25.39217
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-002",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "CRITICAL",
+        "metric": "-35.3 mm/yr LOS (-1.16 mm / 12d)",
+        "numeric_val": -35.3,
+        "delta_12d_mm": -1.16,
+        "aps_delay_removed_mm": -1.57,
+        "vertical_rate_mm_yr": -45.6,
+        "coherence": 0.99,
+        "dist_to_centerline_m": 44.3,
+        "buffer_zone": "Outer Geotech Shear Zone (30-60m)",
+        "asset_id": "Pylon Tower #40 (Span 40-41)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Urgent pile-cap tilt & soil grouting audit (44.3m from centerline).",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          -5.3,
+          -12.4,
+          -18.4,
+          -24.7,
+          -31.1,
+          -35.3
+        ],
+        "legacy_id": "ALT-002",
+        "corridor_km": 14.2,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.24871,
+          25.47429
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-003",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "CRITICAL",
+        "metric": "-33.8 mm/yr LOS (-1.11 mm / 12d)",
+        "numeric_val": -33.8,
+        "delta_12d_mm": -1.11,
+        "aps_delay_removed_mm": -2.46,
+        "vertical_rate_mm_yr": -43.6,
+        "coherence": 0.91,
+        "dist_to_centerline_m": 12.9,
+        "buffer_zone": "Inner Foundation Core (<=30m)",
+        "asset_id": "Pylon Tower #7 (Span 7-8)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Urgent pile-cap tilt & soil grouting audit (12.9m from centerline).",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          -5.1,
+          -11.8,
+          -17.6,
+          -23.7,
+          -29.7,
+          -33.8
+        ],
+        "legacy_id": "ALT-003",
+        "corridor_km": 1.34,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.25983,
+          25.47796
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-004",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "CRITICAL",
+        "metric": "-32.9 mm/yr LOS (-1.08 mm / 12d)",
+        "numeric_val": -32.9,
+        "delta_12d_mm": -1.08,
+        "aps_delay_removed_mm": -2.71,
+        "vertical_rate_mm_yr": -42.5,
+        "coherence": 0.85,
+        "dist_to_centerline_m": 27.4,
+        "buffer_zone": "Inner Foundation Core (<=30m)",
+        "asset_id": "Pylon Tower #2 (Span 2-3)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Urgent pile-cap tilt & soil grouting audit (27.4m from centerline).",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          -4.9,
+          -11.5,
+          -17.1,
+          -23.0,
+          -29.0,
+          -32.9
+        ],
+        "legacy_id": "ALT-004",
+        "corridor_km": 0.13,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.19812,
+          25.42273
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-005",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "CRITICAL",
+        "metric": "-26.2 mm/yr LOS (-0.86 mm / 12d)",
+        "numeric_val": -26.2,
+        "delta_12d_mm": -0.86,
+        "aps_delay_removed_mm": -2.08,
+        "vertical_rate_mm_yr": -33.8,
+        "coherence": 0.98,
+        "dist_to_centerline_m": 2.6,
+        "buffer_zone": "Inner Foundation Core (<=30m)",
+        "asset_id": "Pylon Tower #30 (Span 30-31)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Urgent pile-cap tilt & soil grouting audit (2.6m from centerline).",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          -3.9,
+          -9.2,
+          -13.6,
+          -18.3,
+          -23.1,
+          -26.2
+        ],
+        "legacy_id": "ALT-005",
+        "corridor_km": 9.06,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.20682,
+          25.43073
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-006",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "WARNING",
+        "metric": "-27.7 mm/yr LOS (-0.91 mm / 12d)",
+        "numeric_val": -27.7,
+        "delta_12d_mm": -0.91,
+        "aps_delay_removed_mm": -2.17,
+        "vertical_rate_mm_yr": -35.7,
+        "coherence": 0.99,
+        "dist_to_centerline_m": 43.6,
+        "buffer_zone": "Outer Geotech Shear Zone (30-60m)",
+        "asset_id": "Pylon Tower #26 (Span 26-27)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Monitor embankment shear zone at 43.6m offset during next orbital pass.",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          -4.2,
+          -9.7,
+          -14.4,
+          -19.4,
+          -24.4,
+          -27.7
+        ],
+        "legacy_id": "ALT-006",
+        "corridor_km": 7.67,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.21551,
+          25.43944
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-007",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "WARNING",
+        "metric": "-25.2 mm/yr LOS (-0.83 mm / 12d)",
+        "numeric_val": -25.2,
+        "delta_12d_mm": -0.83,
+        "aps_delay_removed_mm": -2.23,
+        "vertical_rate_mm_yr": -32.5,
+        "coherence": 1.0,
+        "dist_to_centerline_m": 45.2,
+        "buffer_zone": "Outer Geotech Shear Zone (30-60m)",
+        "asset_id": "Pylon Tower #22 (Span 22-23)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Monitor embankment shear zone at 45.2m offset during next orbital pass.",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          -3.8,
+          -8.8,
+          -13.1,
+          -17.6,
+          -22.2,
+          -25.2
+        ],
+        "legacy_id": "ALT-007",
+        "corridor_km": 6.36,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.18704,
+          25.41473
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-008",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "WARNING",
+        "metric": "-20.1 mm/yr LOS (-0.66 mm / 12d)",
+        "numeric_val": -20.1,
+        "delta_12d_mm": -0.66,
+        "aps_delay_removed_mm": -1.92,
+        "vertical_rate_mm_yr": -25.9,
+        "coherence": 0.98,
+        "dist_to_centerline_m": 56.4,
+        "buffer_zone": "Outer Geotech Shear Zone (30-60m)",
+        "asset_id": "Pylon Tower #34 (Span 34-35)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Monitor embankment shear zone at 56.4m offset during next orbital pass.",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          -3.0,
+          -7.0,
+          -10.5,
+          -14.1,
+          -17.7,
+          -20.1
+        ],
+        "legacy_id": "ALT-008",
+        "corridor_km": 10.52,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.16567,
+          25.39871
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-009",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "WARNING",
+        "metric": "-9.7 mm/yr LOS (-0.32 mm / 12d)",
+        "numeric_val": -9.7,
+        "delta_12d_mm": -0.32,
+        "aps_delay_removed_mm": -1.63,
+        "vertical_rate_mm_yr": -12.5,
+        "coherence": 0.99,
+        "dist_to_centerline_m": 50.5,
+        "buffer_zone": "Outer Geotech Shear Zone (30-60m)",
+        "asset_id": "Pylon Tower #38 (Span 38-39)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Monitor embankment shear zone at 50.5m offset during next orbital pass.",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          -1.5,
+          -3.4,
+          -5.0,
+          -6.8,
+          -8.5,
+          -9.7
+        ],
+        "legacy_id": "ALT-009",
+        "corridor_km": 12.9,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.2416,
+          25.46559
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-010",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "WARNING",
+        "metric": "8.5 mm/yr LOS (0.28 mm / 12d)",
+        "numeric_val": 8.5,
+        "delta_12d_mm": 0.28,
+        "aps_delay_removed_mm": -2.44,
+        "vertical_rate_mm_yr": 11.0,
+        "coherence": 0.98,
+        "dist_to_centerline_m": 39.2,
+        "buffer_zone": "Outer Geotech Shear Zone (30-60m)",
+        "asset_id": "Pylon Tower #11 (Span 11-12)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Monitor embankment shear zone at 39.2m offset during next orbital pass.",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          1.3,
+          3.0,
+          4.4,
+          5.9,
+          7.5,
+          8.5
+        ],
+        "legacy_id": "ALT-010",
+        "corridor_km": 2.51,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.22421,
+          25.44816
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-011",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "WARNING",
+        "metric": "-7.3 mm/yr LOS (-0.24 mm / 12d)",
+        "numeric_val": -7.3,
+        "delta_12d_mm": -0.24,
+        "aps_delay_removed_mm": -2.3,
+        "vertical_rate_mm_yr": -9.4,
+        "coherence": 0.98,
+        "dist_to_centerline_m": 47.1,
+        "buffer_zone": "Outer Geotech Shear Zone (30-60m)",
+        "asset_id": "Pylon Tower #18 (Span 18-19)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Monitor embankment shear zone at 47.1m offset during next orbital pass.",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          -1.1,
+          -2.6,
+          -3.8,
+          -5.1,
+          -6.4,
+          -7.3
+        ],
+        "legacy_id": "ALT-011",
+        "corridor_km": 5.26,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.17833,
+          25.40818
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-012",
+        "hazard_type": "Subgrade Ground Subsidence",
+        "severity": "WARNING",
+        "metric": "5.5 mm/yr LOS (0.18 mm / 12d)",
+        "numeric_val": 5.5,
+        "delta_12d_mm": 0.18,
+        "aps_delay_removed_mm": -1.81,
+        "vertical_rate_mm_yr": 7.1,
+        "coherence": 0.98,
+        "dist_to_centerline_m": 44.7,
+        "buffer_zone": "Outer Geotech Shear Zone (30-60m)",
+        "asset_id": "Pylon Tower #35 (Span 35-36)",
+        "sensor": "Sentinel-1 C-Band InSAR (APS-Detrended)",
+        "date_detected": "2025-11-27",
+        "baseline_days": 12,
+        "recommendation": "Monitor embankment shear zone at 44.7m offset during next orbital pass.",
+        "trend_type": "Modeled Linear Subsidence Projection (APS-Corrected 12d Baseline)",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          0.8,
+          1.9,
+          2.9,
+          3.8,
+          4.8,
+          5.5
+        ],
+        "legacy_id": "ALT-012",
+        "corridor_km": 11.78,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.1999,
+          25.42433
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-013",
+        "hazard_type": "Right-of-Way Vegetation Intrusion",
+        "severity": "WARNING",
+        "metric": "NDVI 0.50 (Inside Buffer)",
+        "numeric_val": 0.5,
+        "coherence": 0.9,
+        "dist_to_centerline_m": 2.5,
+        "buffer_zone": "Inner 30m Statutory RoW",
+        "asset_id": "Transmission Span #29-30",
+        "sensor": "Sentinel-2 Multispectral MSI (Dual-Season Woody Filter)",
+        "date_detected": "2025-11-27",
+        "recommendation": "Schedule vegetative trimming during routine maintenance (2.5m from centerline).",
+        "trend_type": "Multi-Temporal Phenological Woody Canopy Growth",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          0.17,
+          0.23,
+          0.33,
+          0.41,
+          0.47,
+          0.5
+        ],
+        "legacy_id": "ALT-013",
+        "corridor_km": 8.73,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.17831,
+          25.40754
+        ]
+      },
+      "properties": {
+        "id": "ALT-JAM-014",
+        "hazard_type": "Right-of-Way Vegetation Intrusion",
+        "severity": "WARNING",
+        "metric": "NDVI 0.46 (Inside Buffer)",
+        "numeric_val": 0.46,
+        "coherence": 0.9,
+        "dist_to_centerline_m": 8.0,
+        "buffer_zone": "Inner 30m Statutory RoW",
+        "asset_id": "Transmission Span #35-36",
+        "sensor": "Sentinel-2 Multispectral MSI (Dual-Season Woody Filter)",
+        "date_detected": "2025-11-27",
+        "recommendation": "Schedule vegetative trimming during routine maintenance (8.0m from centerline).",
+        "trend_type": "Multi-Temporal Phenological Woody Canopy Growth",
+        "trend_dates": [
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ],
+        "trend_values": [
+          0.16,
+          0.21,
+          0.3,
+          0.38,
+          0.44,
+          0.46
+        ],
+        "legacy_id": "ALT-014",
+        "corridor_km": 11.78,
+        "corridor_sector": "Jamshoro\u2013Karachi 500kV Corridor (Nooriabad)"
+      }
+    }
+  ]
+}

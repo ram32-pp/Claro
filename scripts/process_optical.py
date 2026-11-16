@@ -1,6 +1,6 @@
 # scripts/process_optical.py - Dual-Season Phenological Woody Canopy Filter (Sentinel-2 MSI)
 """
-SindhOrbit Optical Engine:
+Claro Optical Engine:
 Implements a Dual-Season Phenological Persistence Filter using Copernicus Sentinel-2 L2A MSI imagery.
 By coupling peak arid summer (pre-monsoon, April-June) with peak post-monsoon (August-October),
 it separates seasonal agricultural crops (which get harvested to bare soil NDVI < 0.20)
