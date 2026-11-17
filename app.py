@@ -82,13 +82,73 @@ render_html("""
     -webkit-font-smoothing: antialiased;
 }
 
-/* Hide Streamlit Header & Footer Chrome */
-#MainMenu, footer, header[data-testid="stHeader"], .stDeployButton, [data-testid="stToolbar"] {
+/* Clean Transparent Header (Retains Sidebar Expand Toggle) */
+header[data-testid="stHeader"] {
+    background: transparent !important;
+    height: 3rem !important;
+    z-index: 999 !important;
+    pointer-events: none !important;
+}
+
+/* Hide Streamlit Default Chrome & Menus */
+#MainMenu, 
+footer, 
+.stDeployButton, 
+[data-testid="stAppDeployButton"], 
+[data-testid="stStatusWidget"], 
+[data-testid="stToolbarActions"] {
     display: none !important;
 }
 
+/* Toolbar container: transparent and non-blocking except for children */
+[data-testid="stToolbar"] {
+    display: flex !important;
+    background: transparent !important;
+    pointer-events: none !important;
+    height: 3rem !important;
+}
+
+/* Sidebar Expand Toggle Button (when sidebar is collapsed) */
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="stExpandSidebarButton"],
+button[data-testid="stExpandSidebarButton"] {
+    display: flex !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    background: var(--bg-surface) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    z-index: 10000 !important;
+    transition: all 0.15s ease-in-out !important;
+}
+
+[data-testid="stExpandSidebarButton"]:hover,
+[data-testid="stSidebarCollapsedControl"]:hover {
+    background: #1f2937 !important;
+    border-color: #3b82f6 !important;
+    color: #38bdf8 !important;
+}
+
+/* Sidebar Collapse Toggle Button (inside sidebar header) */
+[data-testid="stSidebarCollapseButton"],
+[data-testid="stSidebarCollapseButton"] button {
+    display: flex !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    color: var(--text-muted) !important;
+    cursor: pointer !important;
+    transition: color 0.15s ease !important;
+}
+
+[data-testid="stSidebarCollapseButton"] button:hover {
+    color: #f8fafc !important;
+}
+
+/* Adjusted Block Container Padding to prevent top overlap */
 .block-container {
-    padding: 1rem 1.5rem 1.5rem 1.5rem !important;
+    padding: 3.25rem 1.5rem 1.5rem 1.5rem !important;
     max-width: 100% !important;
 }
 
